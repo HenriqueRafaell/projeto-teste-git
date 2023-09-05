@@ -1,0 +1,5 @@
+Primeiro checkpoint dia 12, calculo.
+Conteudos:
+-Conjuntos
+-Expressões (Númericas Algébricas)
+-Equações polinomiais 
