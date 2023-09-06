@@ -21,3 +21,6 @@ print(f"Sua compra custou R${valor_total} ")
 
 
 CÓDIGOS DA AULA DE PYTHON-06/09/2023
+
+
+CONTEUDO DA PROVA DE PYTHON - CONDICIONAIS 
