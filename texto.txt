@@ -24,3 +24,19 @@ CÓDIGOS DA AULA DE PYTHON-06/09/2023
 
 
 CONTEUDO DA PROVA DE PYTHON - CONDICIONAIS 
+
+
+
+velocidade = float(input("Informe a velociade do veiculo : "))
+
+multa = 0
+if velocidade <= 80:
+    print("esta no limite ")
+    multa = (velocidade - 80) *5
+elif velocidade <= 120:
+    print("esta passando do limite ")
+    multa = (velocidade - 100) * 10 +100
+elif velocidade >= 120:
+    print("a sua multa chegara no valor de ")
+    multa = (velocidade - 120) * 20 + 100 +200
+
