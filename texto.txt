@@ -10,3 +10,14 @@ Aula de arduino         i++= incremento i=i+1
 int i =           0<8
 I= 0+1                  1<8
                   2<8
+
+macas = int(input("Quantas macas deseja comprar ? "))
+preco = 0.25
+if macas < 12:
+    preco = 0.3
+valor_total = preco * macas
+print(f"Sua compra custou R${valor_total} ")
+
+
+
+CÓDIGOS DA AULA DE PYTHON-06/09/2023
