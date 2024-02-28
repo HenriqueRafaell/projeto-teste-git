@@ -76,8 +76,56 @@ while i < num:
     if num % i:
         print(f"{num} não é primo")
         break
+
+
     elif i ==-1:
         print(f"{num} é primo ")
     i+=1
+
+
+
+matriz = [[1,2,3],[4,5,6,],[7,8,9]]
+for i in range(len(matriz)):
+    print(matriz)
+
+matriz = [[1,2,3],[4,5,6,],[7,8,9]]
+def printa_matriz(matriz):
+    for linha in matriz:
+        print(linha)
+    return
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        if j>=i:
+          matriz[i][j] = 1
+        else:
+            matriz[i][j] = 0
+printa_matriz(matriz)
+'''
+''' i representa linhas - j representa colunas'''
+
+import matplotlib.pyplot as plt
+def nova_matriz(linha , coluna):
+    matriz = []
+    for i in range(linha):
+        lista = []
+        for j in range(coluna):
+            lista.append(i*j)
+        matriz.append(lista)
+    return matriz
+def printa_matriz(matriz):
+    for linha in matriz:
+        print(linha)
+    return
+matriz = nova_matriz(8,8)
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        if (j+i) % 2 == 0:
+            matriz[i][j] = 1
+        else:
+            matriz[i][j] = 0
+printa_matriz(matriz)
+plt.imshow(matriz, cmap= 'grey')
+plt.colorbar()
+plt.show()
 
 
